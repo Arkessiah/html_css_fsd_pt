@@ -1,0 +1,54 @@
+
+body{
+    margin:30;
+    font-family: "Roboto","Arial", sans-serif;
+}
+
+/** Titulos **/
+h1{
+    color:wheat;
+}
+h2{
+    color:ghostwhite;
+}
+
+h6{
+    color:brown;
+}
+
+/** Mejora de Estilos **/
+span{
+    color: goldenrod;
+}
+
+/** Selectores de Clase **/
+
+.sectionText{
+    color: rgb(177, 144, 62);
+}
+
+.skill1{
+    color:thistle;
+    font-family: Arial;
+}
+
+.skill2{
+    color:rosybrown;
+}
+
+.container{
+    width: 500px;
+    height: 650px;
+    background-color: dimgrey;
+}
+
+.mainImg{
+    width: 500px;
+}
+
+/** Sectores por ID **/
+
+#section1{
+    background-color:rgb(142, 103, 70);
+    text-align: center;
+}
