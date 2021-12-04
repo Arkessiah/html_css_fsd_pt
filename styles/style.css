@@ -4,9 +4,18 @@ body{
     font-family: "Roboto","Arial", sans-serif;
 }
 
+nav{
+    background-color:#121213;
+    height: 4rem;
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
 /** Titulos **/
 h1{
     color:wheat;
+    font-size: 2px;
 }
 h2{
     color:ghostwhite;
@@ -38,17 +47,61 @@ span{
 
 .container{
     width: 500px;
-    height: 650px;
+    height: 600px;
     background-color: dimgrey;
 }
 
 .mainImg{
-    width: 500px;
+    width: 50rem;
+    /**
+    base = 16px;
+    %
+    em   (alto y ancho de la letra M)
+    rem (referencia html)
+    **/
 }
 
+.textContainer{
+    max-width: 100vw;  /** quiero que ocupes como maximo el viewport **/
+    min-height:100vh;
+}
 /** Sectores por ID **/
 
 #section1{
     background-color:rgb(142, 103, 70);
     text-align: center;
+    max-width: 100vw;  /** quiero que ocupes como maximo el viewport **/
+    min-height:100vh;
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
 }
+
+#section2{
+    background-color:#fff;
+    text-align: left;
+}
+}
+
+/** Selectores Multiples **/
+
+h3,h4,h5 {
+    font-weight: bold;
+}
+
+/** Selector por Relacion **/
+
+nav a{
+    color:white;
+    text-decoration: none;
+    margin-right: 1rem;
+}
+
+nav a:hover{
+    background-color: sandybrown;
+}
+
+nav a:visited{
+    color:skyblue;
+}
+
